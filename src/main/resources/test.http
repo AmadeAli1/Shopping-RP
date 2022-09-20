@@ -13,7 +13,7 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:8080/api/account/login?email=ali@gmail.com&password=amade12
+GET https://shopping-odvpaw3faa-nw.a.run.app/api/account/login?email=ali@gmail.com&password=amade12
 
 ###
 GET http://localhost:8080/api/account/confirmation?token=7048d606-60d1-4504-a424-f8429bb290fd

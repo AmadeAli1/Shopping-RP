@@ -8,16 +8,7 @@ import org.springframework.scheduling.annotation.EnableAsync
 
 @EnableAsync
 @SpringBootApplication
-class ShoppingAppApplication : CommandLineRunner {
-
-    override fun run(vararg args: String?) {}
-
-    suspend fun test() {
-        delay(3000)
-        println("Hello")
-    }
-
-}
+class ShoppingAppApplication
 
 fun main(args: Array<String>) {
     runApplication<ShoppingAppApplication>(*args)
