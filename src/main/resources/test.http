@@ -1,7 +1,7 @@
 GET http://localhost:8080/api/account
 
 ### Send POST request with json body
-POST http://localhost:8080/api/account/register
+POST https://shopping-app-362812.el.r.appspot.com/api/account/register
 Content-Type: application/json
 
 {
@@ -13,7 +13,7 @@ Content-Type: application/json
 }
 
 ###
-GET https://shopping-odvpaw3faa-nw.a.run.app/api/account/login?email=ali@gmail.com&password=amade12
+GET https://shopping-app-362812.el.r.appspot.com/api/account/login?email=ali@gmail.com&password=amade12
 
 ###
 GET http://localhost:8080/api/account/confirmation?token=7048d606-60d1-4504-a424-f8429bb290fd
