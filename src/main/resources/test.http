@@ -1,0 +1,19 @@
+GET http://localhost:8080/api/account
+
+### Send POST request with json body
+POST http://localhost:8080/api/account/register
+Content-Type: application/json
+
+{
+  "email": "ali@gmail.com",
+  "username": "Amade Ali",
+  "password": "amade12",
+  "cityname": "maputo",
+  "cellphone": "+258 820000000"
+}
+
+###
+GET http://localhost:8080/api/account/login?email=ali@gmail.com&password=amade12
+
+###
+GET http://localhost:8080/api/account/confirmation?token=7048d606-60d1-4504-a424-f8429bb290fd
